@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-dropdown-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dropdown alert component",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,11 @@
   "keywords": [
     "react-native",
     "dropdown alert",
-    "react-native-dropdown-alert"
+    "react-native-dropdown-alert",
+    "nghinv",
+    "dropdown",
+    "alert",
+    "toast"
   ],
   "repository": {
     "type": "git",
@@ -31,6 +35,24 @@
   },
   "devDependencies": {},
   "publishConfig": {
+    "cache": "~/.npm",
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
+  },
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
   }
 }

@@ -22,20 +22,18 @@ npm install @nghinv/react-native-dropdown-alert
 * Peer dependencies 
 	- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
 
-<img src="./assets/example.gif" height="600"/>
-
 # How to use
 
-1. Wrapper `DropdownService` in the `Root Component`
+1. Wrapper `DropdownAlertService` in the `Root Component`
 
 ```javascript
-  import { DropdownService } from '@nghinv/react-native-dropdown-alert';
+  import { DropdownAlertService } from '@nghinv/react-native-dropdown-alert';
 
   ...
   return (
-    <DropdownService>
+    <DropdownAlertService>
       <RootComponent />
-    </DropdownService>
+    </DropdownAlertService>
   );
   ...
 ```

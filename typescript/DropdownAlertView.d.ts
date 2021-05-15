@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import { ViewStyle, ImageStyle } from 'react-native';
 import { TitleProps } from './Title';
 import { MessageProps } from './Message';
 
@@ -27,6 +28,8 @@ export interface DropdownAlertViewProps {
   messageProps?: MessageProps;
   testIDDropdown?: String;
   accessibilityLabelDropdown?: String;
+  contentStyle?: ViewStyle;
+  imageStyle?: ImageStyle;
 }
 
 export declare function DropdownAlertView(props: DropdownAlertViewProps): JSX.Element;
