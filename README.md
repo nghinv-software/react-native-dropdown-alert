@@ -19,7 +19,7 @@ yarn add @nghinv/react-native-dropdown-alert
 npm install @nghinv/react-native-dropdown-alert
 ```
 
-* Peer dependencies 
+* dependencies 
 	- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
 
 # How to use
@@ -50,7 +50,7 @@ export default function Example() {
     DropdownAlert.show({
       title: 'Thông báo',
       message: 'Đã kích hoạt cảnh',
-      timeDissmiss: 1000,
+      timeDismiss: 1000,
     });
     DropdownAlert.show({
       title: 'Thông báo',

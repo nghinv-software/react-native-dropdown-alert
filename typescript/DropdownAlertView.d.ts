@@ -14,13 +14,13 @@ export interface DropdownAlertViewProps {
   title?: String;
   message?: String;
   type?: DropdownAlertType;
-  timeDissmiss?: Number,
+  timeDismiss?: Number,
   autoHide?: Boolean,
   infoColor?: String,
   warnColor?: String,
   errorColor?: String,
   successColor?: String,
-  timingAnimationConfig: Object;
+  timingAnimationConfig?: Object;
   onHide?: () => void;
   showStatusBar?: Boolean;
   renderIcon?: React.FC;
@@ -30,6 +30,7 @@ export interface DropdownAlertViewProps {
   accessibilityLabelDropdown?: String;
   contentStyle?: ViewStyle;
   imageStyle?: ImageStyle;
+  renderContent?: React.FC;
 }
 
 export declare function DropdownAlertView(props: DropdownAlertViewProps): JSX.Element;
