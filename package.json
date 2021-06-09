@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-dropdown-alert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dropdown alert component",
   "main": "lib/index.js",
   "scripts": {
@@ -26,12 +26,12 @@
     "url": "https://github.com/nghinv-software/react-native-dropdown-alert/issues"
   },
   "homepage": "https://github.com/nghinv-software/react-native-dropdown-alert#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "*",
     "react-native": "*",
     "react-native-gesture-handler": "*",
     "react-native-reanimated": ">=2.0.0-rc.0",
-    "react-native-safe-area-context": "*"
+    "react-native-safe-area-context": "^3.1.9"
   },
   "devDependencies": {},
   "publishConfig": {
