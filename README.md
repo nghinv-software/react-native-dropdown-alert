@@ -3,6 +3,8 @@
 
 A dropdown alert component with react-native-reanimated
 
+<img src="./assets/example.gif" height="600"/>
+
 # Installation
 
 ## Installing the package
