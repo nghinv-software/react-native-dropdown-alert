@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-dropdown-alert",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A dropdown alert component",
   "main": "lib/index.js",
   "scripts": {
