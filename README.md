@@ -3,6 +3,14 @@
 
 A dropdown alert component with react-native-reanimated
 
+---
+
+
+[![Version][version-badge]][package]
+[![MIT License][license-badge]][license]
+[![All Contributors][all-contributors-badge]][all-contributors]
+
+
 <img src="./assets/example.gif" height="600"/>
 
 # Installation
@@ -83,3 +91,10 @@ const styles = StyleSheet.create({
   }
 });
 ```
+
+[version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-dropdown-alert.svg?style=flat-square
+[package]: https://www.npmjs.com/package/@nghinv/react-native-dropdown-alert
+[license-badge]: https://img.shields.io/npm/l/@nghinv/react-native-dropdown-alert.svg?style=flat-square
+[license]: https://opensource.org/licenses/MIT
+[all-contributors-badge]: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
+[all-contributors]: #contributors
