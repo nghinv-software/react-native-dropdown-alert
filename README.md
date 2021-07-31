@@ -29,8 +29,13 @@ yarn add @nghinv/react-native-dropdown-alert
 npm install @nghinv/react-native-dropdown-alert
 ```
 
-* dependencies 
-	- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
+- peerDependencies
+
+```sh
+yarn add react-native-gesture-handler react-native-reanimated react-native-safe-area-context
+```
+
+- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
 
 # How to use
 
@@ -91,6 +96,11 @@ const styles = StyleSheet.create({
   }
 });
 ```
+
+---
+## Credits
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-dropdown-alert.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-dropdown-alert
